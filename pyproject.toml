@@ -1,0 +1,16 @@
+[project]
+name = "pyrsuit-dev-blog-backend"
+version = "0.1.0"
+description = "Backend to the pursuit.dev written in Django"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.2.6",
+]
+
+[dependency-groups]
+lint = [
+    "pre-commit>=4.3.0",
+    "ruff>=0.13.0",
+    "ty>=0.0.1a20",
+]
